@@ -129,8 +129,98 @@ a:hover {
   padding: 0.75rem 0;
   text-align: center;
   text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
   width: 220px;
 }
 .c-btn:hover {
   text-decoration: none;
+}
+.c-btn--primary {
+  background-color: #D3EAFA;
+  color: #3B99E1;
+}
+.c-btn--primary:hover {
+  background-color: rgb(142.306122449, 201.2142857143, 242.193877551);
+  color: #FFFFFF;
+}
+.c-btn--accent {
+  background-color: #60DC64;
+  color: #FFFFFF;
+}
+.c-btn--accent:hover {
+  background-color: rgb(43.2087628866, 196.2912371134, 48.1469072165);
+  color: #FFFFFF;
+}
+.c-btn--dark-blue {
+  background-color: #3E5CC5;
+  color: #FFFFFF;
+}
+.c-btn--dark-blue:hover {
+  background-color: rgb(42.171314741, 63.984063745, 140.328685259);
+  color: #FFFFFF;
+}
+.c-btn--light {
+  background-color: #FFFFFF;
+  color: #3B99E1;
+}
+.c-btn--light:hover {
+  background-color: rgb(216.75, 216.75, 216.75);
+  color: #3B99E1;
+}
+.c-btn--outline {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+.c-btn--outline:hover {
+  color: rgb(216.75, 216.75, 216.75);
+  border: 2px solid rgb(216.75, 216.75, 216.75);
+}
+
+.c-heading {
+  color: #3B99E1;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+.c-heading--level1 {
+  font-size: 1.5rem;
+}
+@media (min-width: 1200px) {
+  .c-heading--level1 {
+    font-size: 3rem;
+  }
+}
+.c-heading--level2 {
+  font-size: 1.125rem;
+}
+@media (min-width: 1200px) {
+  .c-heading--level2 {
+    font-size: 1.5rem;
+  }
+}
+.c-heading--level3 {
+  font-size: 1.125rem;
+}
+.c-heading--level4 {
+  font-size: 1rem;
+}
+.c-heading--level5 {
+  font-size: 0.875rem;
+}
+.c-heading--upper {
+  text-transform: uppercase;
+}
+.c-heading--white {
+  color: #FFFFFF;
+}
+
+.c-nav__item {
+  color: #FFFFFF;
+  display: block;
+  font-size: 0.875rem;
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
 }
