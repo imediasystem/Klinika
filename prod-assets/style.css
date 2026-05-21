@@ -259,3 +259,10 @@ a:hover {
   margin-bottom: 15px;
   text-transform: uppercase;
 }
+
+.c-list__item {
+  margin-bottom: 12px;
+}
+.c-list--unstyled {
+  list-style-type: none;
+}
